@@ -90,6 +90,7 @@ RUN apt-get -qq update &&\
     xz-utils \
     libssl-dev \
     libreadline-dev \
+    openssh-client \
     --no-install-recommends && rm -r /var/lib/apt/lists/*
 
 ENV PHP_INI_DIR /usr/local/etc/php
